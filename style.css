@@ -1,0 +1,9 @@
+#map {
+ height: 400px;
+ width: 90%;
+ margin: auto;
+}
+.heading {
+  font-family: Verdana;
+  text-align: center;
+}

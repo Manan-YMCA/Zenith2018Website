@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home | Zenith</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <div class="container-fluid">
+
+      <div class="about">
+        <h3 class="heading">About</h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+
+      <div class="timeline">
+          <h3 class="heading">Timeline</h3>
+      </div>
+
+      <div class="guideline">
+        <h3 class="heading">Guidelines</h3>
+      </div>
+
+      <div class="judging">
+        <h3 class="heading">Judging Criterion</h3>
+      </div>
+
+      <div class="award">
+        <h3 class="heading">Awards</h3>
+      </div>
+
+      <div class="organiser">
+        <h3 class="heading">Organiser</h3>
+      </div>
+
+      <div class="judges">
+        <h3 class="heading">Judges</h3>
+      </div>
+
+      <div class="team">
+        <h3 class="heading">Team</h3>
+      </div>
+
+      <div class="faq">
+        <h3 class="heading">FAQ</h3>
+      </div>
+
+      <div class="social">
+        <h3 class="heading">Social Wall</h3>
+        <div id="fb-root">
+          <iframe class="fb-timeline" seamless="seamless" scrolling="no" style="overflow:hidden" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FManan.Ymcaust&tabs=timeline&width=350&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="350" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        </div>
+
+        <div class="twitter">
+          <div id="twitter-timeline">
+            <a class="twitter-timeline" data-width="350" data-height="500" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/ymcauniversity?ref_src=twsrc%5Etfw">Tweets by ymcauniversity</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+
+      <div class="venue">
+        <h3 class="heading">Venue</h3>
+        <div id="map"></div>
+        <script>
+          function initMap() {
+            var uluru = {lat: 28.3672, lng: 77.3157};
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 16,
+              center: uluru
+            });
+            var marker = new google.maps.Marker({
+              position: uluru,
+              map: map
+            });
+          }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmsByboKPgNgZytC7aDU0V3NCLbd3JOc0&callback=initMap">
+        </script>
+      </div>
+
+      <div class="contact">
+        <h3 class="heading">Contact Us</h3>
+      </div>
+
+    </div>
+  </body>
+</html>
