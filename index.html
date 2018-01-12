@@ -1,69 +1,146 @@
 <!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <html>
   <head>
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <title>Home | Zenith</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zenith</title>
+
+    <!-- for Google -->
+    <meta name="description" content="Project demonstration and pitching hackathon, At YMCA University During Elements Culmyca 2018" />
+    <meta name="keywords" content="zenith,hackathon,manan,college,fest,elements,culmyca,ymca,2018" />
+    <meta name="author" content="Manan.Tech" />
+    <meta name="copyright" content="" />
+    <meta name="application-name" content="Zenith" />
+
+    <!-- for Facebook -->
+    <meta property="og:url"                content="http://zenith.elementsculmyca.com/" />
+    <meta property="og:title"              content="Zenith Hackathon" />
+    <meta property="og:description"        content="Project demonstration and pitching hackathon, at YMCA University, Faridabad. Win cash prize upto Rs 15,000 and goodies worth Rs 90,000." />
+    <meta property="og:image"              content="http://zenith.elementsculmyca.com/images/coverphoto.jpg" />
+    <meta property="og:site_name"          content="Zenith Hackathon" />
+
+    <!-- for Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Zenith | Elements Culmyca 2018" />
+    <meta name="twitter:description" content="Project demonstration hackathon at Annual Cultural Cum Technical Fest Of YMCA University Of Science And Technology, Faridabad" />
+    <meta name="twitter:image" content="http://zenith.elementsculmyca.com/images/coverphoto.jpg" />
+    <link rel="apple-touch-icon" href="images/logo.png">
+    <link rel="icon" href="images/logo.png">
+
+    <!--favicons-->
+    <link rel="icon" href="favicon.png">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- bootstrap --> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    
   </head>
   <body>
 
-    <div class="container-fluid">
+    <div class="container-fluid wrapper">
 
-      <div class="about">
+      <header class="header"></header>
+
+      <section class="about">
         <h3 class="heading">About</h3>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
+      </section>
 
-      <div class="timeline">
+      <section class="timeline">
           <h3 class="heading">Timeline</h3>
-      </div>
+      </section>
 
-      <div class="guideline">
+      <section class="guideline">
         <h3 class="heading">Guidelines</h3>
-      </div>
+      </section>
 
-      <div class="judging">
+      <section class="judging">
         <h3 class="heading">Judging Criterion</h3>
-      </div>
+      </section>
 
-      <div class="award">
-        <h3 class="heading">Awards</h3>
-      </div>
+      <!-- Awards -->
+      <section class="awards text-center">
+        <div class="row">
+          <h5 class="text-white section-heading text-uppercase">Awards</h5>
+          <h5 class="title-line">_______</h5>
 
-      <div class="organiser">
-        <h3 class="heading">Organiser</h3>
-      </div>
+          <div class="col-sm-4" align="center">
+            <div class="card">
+              <img class="card-image-top img-responsive" src="images/awards/reward.png" alt="First Prize">
+              <h5 class="card-title">First Prize</h5>
+              <p class="card-body">To be decided<br />(Per Team)</p>
+            </div>
+          </div>
 
-      <div class="judges">
-        <h3 class="heading">Judges</h3>
-      </div>
+          <div class="col-sm-4" align="center">
+            <div class="card">
+              <img class="card-image-top img-responsive" src="images/awards/reward_two.png" alt="First Prize">
+              <h5 class="card-title">Second Prize</h5>
+              <p class="card-body">To be decided<br />(Per Team)</p>
+            </div>
+          </div>
 
-      <div class="team">
-        <h3 class="heading">Team</h3>
-      </div>
-
-      <div class="faq">
-        <h3 class="heading">FAQ</h3>
-      </div>
-
-      <div class="social">
-        <h3 class="heading">Social Wall</h3>
-        <div id="fb-root">
-          <iframe class="fb-timeline" seamless="seamless" scrolling="no" style="overflow:hidden" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FManan.Ymcaust&tabs=timeline&width=350&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="350" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        </div>
-
-        <div class="twitter">
-          <div id="twitter-timeline">
-            <a class="twitter-timeline" data-width="350" data-height="500" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/ymcauniversity?ref_src=twsrc%5Etfw">Tweets by ymcauniversity</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <div class="col-sm-4" align="center">
+            <div class="card">
+              <img class="card-image-top img-responsive " src="images/awards/reward_three.png" alt="First Prize">
+              <h5 class="card-title">Third Prize</h5>
+              <p class="card-body">To be decided<br />(Per Team)</p>
+            </div>
           </div>
         </div>
+      </section><!-- Awards -->
 
-      <div class="venue">
+      <section class="organiser">
+        <h3 class="heading">Organiser</h3>
+      </section>
+
+      <section class="judges">
+        <h3 class="heading">Judges</h3>
+      </section>
+
+      <section class="team">
+        <h3 class="heading">Team</h3>
+      </section>
+
+      <section class="faq">
+        <h3 class="heading">FAQ</h3>
+      </section>
+
+      <section class="social">
+        <div class="row">
+          <h3 class="heading">Social Wall</h3>
+          <div  class="col-md-6" align="center">
+            <div id="fb-root">
+              <iframe class="fb-timeline" seamless="seamless" scrolling="no" style="overflow:hidden" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fzenithhackathon&tabs=timeline&width=350&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="350" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="twitter" align="center">
+              <div id="twitter-timeline">
+                <a class="twitter-timeline" data-width="350" data-height="500" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/manantechsurge?ref_src=twsrc%5Etfw">Tweets by Manan - A Techno Surge</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="venue">
         <h3 class="heading">Venue</h3>
         <div id="map"></div>
         <script>
@@ -82,11 +159,11 @@
         <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmsByboKPgNgZytC7aDU0V3NCLbd3JOc0&callback=initMap">
         </script>
-      </div>
+      </section>
 
-      <div class="contact">
+      <section class="contact">
         <h3 class="heading">Contact Us</h3>
-      </div>
+      </section>
 
     </div>
   </body>
