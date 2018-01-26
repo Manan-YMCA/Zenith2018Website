@@ -2,6 +2,11 @@
 /*           General
 ********************************************/
 .wrapper {}
+p{
+	
+    text-align: justify;     
+      font-family: Verdana;
+}
 
 .img-center {
 	display: block;
