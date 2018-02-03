@@ -2,11 +2,6 @@
 /*           General
 ********************************************/
 .wrapper {}
-p{
-	
-    text-align: justify;     
-      font-family: Verdana;
-}
 
 .img-center {
 	display: block;
@@ -15,7 +10,8 @@ p{
 
 .text-white {color: white;}
 
-/*             	Sections
+/*******************************************
+		      	Sections
 ********************************************/
 .section {
 	width: 100%;
@@ -32,11 +28,31 @@ p{
 	margin-bottom: -10px;
 }
 
+.title-line {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 16px;
+	font-weight: bolder;
+	margin-bottom: 60px;
+}
+
+/*			Guidelines
+*************************************/
+.guideline p {
+    text-align: justify;     
+    font-family: Verdana;
+}
+
+
+/*			Awards
+*************************************/
 .awards {
 	background: transparent url(images/features-bg.jpg);
 	background-size: cover;
 }
 
+/*			FAQ
+***********************************/
 .faq{}
 
 .faq-question {
@@ -53,13 +69,6 @@ p{
 	list-style-type: none;
 }
 
-.title-line {
-	display: block;
-	font-size: 20px;
-	margin-bottom: 16px;
-	font-weight: bolder;
-	margin-bottom: 60px;
-}
 
 /*             	Cards
 ********************************************/
