@@ -1,0 +1,96 @@
+html, body, section, .row{
+  height: 100%;
+  width: 100%;
+}
+
+nav{
+  float: right;
+}
+
+nav a{
+  font-size: 22px;
+  border-bottom: 2px solid green;
+  margin: 10px;
+  color: green;
+}
+
+.img{
+  padding: 30px;
+}
+
+.section{
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.section-1{
+  background: url(./img/demo/building_vector.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+@media (max-width: 1200px) {
+  .section-1{
+    background-size: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .section-1{
+    background-size: 180%;
+  }
+}
+@media (max-width: 768px) {
+  .section-1{
+    background-size: 250%;
+  }
+}
+@media (max-width: 576px) {
+  .section-1{
+    background-size: 350%;
+  }
+}
+
+.section-2{
+  background: url(./img/demo/bg-1.jpg);
+  background-size: cover;
+}
+.section-3{
+  background: url(./img/demo/bg-2.jpg);
+  background-size: cover;
+}
+.section-4{
+  background: url(./img/demo/bg-3.jpg);
+  background-size: cover;
+}
+.section-5{
+  background: url(./img/demo/bg-1.jpg);
+  background-size: cover;
+}
+.section-6{
+  background: url(./img/demo/bg-2.jpg);
+  background-size: cover;
+}
+
+.img{
+  position: relative;
+  top: 10%;
+}
+
+.text-content{
+  position: relative;
+  top: 18%;
+  padding: 20px;
+}
+
+.content-text{
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+}
+
+.scroll-down{
+  position: absolute;
+  left: 48%;
+  bottom: 0;
+  opacity: 0.2;
+}
