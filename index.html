@@ -144,9 +144,6 @@
             </div>
           </div>
         </div>
-        <span class="scroll-down">
-          <img src="./img/demo/down-arrow-black.png" alt="arrow-down" height="80px" width="80px">
-        </span>
       </div>
     </section>
 
@@ -166,6 +163,17 @@
             $("html, body").animate({
                 scrollTop: offset
             }, 300);
+            var current = $('.current').removeClass('current');
+            current.closest('.section').next('.section').addClass('current');
+        });
+      });
+    </script>
+
+    <!-- for experimental purpose on mobile devices -->
+    <script>
+      $(document).ready(function(){
+        $(window).resize(function(){
+            $(".section").height($(window).height());
         });
       });
     </script>
