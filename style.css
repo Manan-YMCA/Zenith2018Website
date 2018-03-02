@@ -8,8 +8,9 @@ html, body, section, .row{
 nav a{
   font-size: 1.3rem;
   border-bottom: .11rem solid #67b6e6;
-  margin: 10px;
+  margin: 0.4rem !important;
   color: #67b6e6 !important;
+  text-align: center;
 }
 
 .section{
@@ -79,10 +80,37 @@ nav a{
 }
 
 .first-col .text-content, .first-col .img{
-  margin-left: auto !important;
+  margin-left: auto;
 }
 .second-col .text-content, .second-col .img{
-  margin-right: auto !important;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 768px){
+  nav a{
+    font-size: 1rem;
+    border-bottom: .06rem solid #67b6e6 !important;
+    margin: 0.6rem;
+  }
+  .content-heading{
+    font-size: 1.8rem !important;
+  }
+
+  .text-content, .img{
+    width: auto;
+    display: block;
+    margin: auto;
+  }
+  .text-content, .img{
+    padding: 2rem;
+    text-align: center;
+  }
+  .first-col .text-content, .first-col .img{
+    padding-bottom: 0;
+  }
+  .second-col .text-content, .second-col .img{
+    padding-bottom: 6rem !important;
+  }
 }
 
 .content-text{
