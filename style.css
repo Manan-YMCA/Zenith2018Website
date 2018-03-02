@@ -1,13 +1,21 @@
+html{font-size: 16px;}
+
 html, body, section, .row{
   height: 100%;
   width: 100%;
 }
 
 nav a{
-  font-size: 22px;
-  border-bottom: 2px solid #67b6e6;
+  font-size: 1.3rem;
+  border-bottom: .11rem solid #67b6e6;
   margin: 10px;
   color: #67b6e6 !important;
+}
+
+#logo_cover_image, .fixed{
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .section{
@@ -74,7 +82,12 @@ nav a{
 
 .content-text{
   font-family: 'Raleway', sans-serif;
-  font-size: 28px;
+  font-size: 1.5rem;
+}
+
+.content-heading{
+  font-size: 3rem;
+  font-family: Roboto;
 }
 
 .scroll-down{
