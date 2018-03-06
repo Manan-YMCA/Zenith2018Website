@@ -183,6 +183,15 @@
       });
     </script>
 
+    <!-- close navbar after link is clicked -->
+    <script>
+      $(document).ready(function () {
+        $(".navbar-nav li a").click(function(event) {
+          $(".navbar-collapse").collapse('hide');
+        });
+      });
+    </script>
+
     <!-- to scroll down to next section by down-arrow icon -->
     <script type="text/javascript">
       $(document).ready(function() {
