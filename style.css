@@ -134,7 +134,22 @@ nav a{
 }
 
 /* faqs slide - section 9 styling */
+#faq{
+  height: 100vh;
+}
 
+.faqs a:hover{
+  text-decoration: none;
+  color: green;
+}
+/* .faqs .card-header:after {
+  content: "\f068";
+  float: right;
+}
+.faqs .card-header.collapsed:after {
+  content: "\f067";
+  float: right;
+} */
 
 
 /* contact slide - section 10 styling */
