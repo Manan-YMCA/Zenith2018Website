@@ -86,7 +86,11 @@ nav a{
   background-color: green;
 }
 
-/* section 2 styling */
+/* events slide - section 2 styling */
+
+
+
+/* ideas slide - section 3 styling */
 .ideas{
   background: #000;
   background-size: cover;
@@ -94,14 +98,14 @@ nav a{
 .ideas .content-heading{color: #fac135;}
 .ideas .content-text{color: #fff;}
 
-/* section 3 styling */
+/* code-eat-code slide - section 4 styling */
 .eat{
   background: url(./img/fina.png);
   background-size: cover;
 }
 .eat .content-heading{color: #e10019;}
 
-/* section 4 styling */
+/* music slide - section 5 styling */
 .music{
   background: url(./img/slide-3/lifgt.png) repeat-x;
   background-position: top;
@@ -110,7 +114,17 @@ nav a{
 .music .content-heading{color: green;}
 .music .content-text{color: #000;}
 
-/* section 5 styling */
+/* prizes slide - section 6 styling */
+
+
+
+/* sponsors slide - section 7 styling */
+.sponsors{
+  height: 100vh;
+}
+
+
+/* fun slide - section 8 styling */
 .fun{
   background: url(./img/slide-4/flowers.png) no-repeat;
   background-position: bottom;
@@ -119,7 +133,11 @@ nav a{
   color: #fa7c04;
 }
 
-/* section 6 styling */
+/* faqs slide - section 9 styling */
+
+
+
+/* contact slide - section 10 styling */
 .contact{
   background: url(img/contactus/wave.png) repeat-x;
   background-position: top;
