@@ -120,7 +120,7 @@ nav a{
 
 /* sponsors slide - section 7 styling */
 .sponsors{
-  height: 100vh;
+  height: auto !important;
 }
 
 
@@ -135,7 +135,7 @@ nav a{
 
 /* faqs slide - section 9 styling */
 #faq{
-  height: 100vh;
+  height: auto !important;
 }
 
 .faqs a:hover{
