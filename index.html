@@ -65,12 +65,13 @@
     <section class="section section-2 events" id="events" data-section="2">
       <div class="row no-gutters">
         <div class="col-md-12">
-          <img src="./img/cal.png" class="img-fluid d-block mx-auto" width="15%" alt="calender icon">
+          <img src="./img/cal.png" id="cal-img" class="img-fluid d-block mx-auto" width="15%" alt="calender icon">
         </div>
         <div class="text-content text-center pc-w-75 d-block mx-auto mob-w-100 p-3">
-          <h1 class="content-heading">Event Timeline</h1>
+          <!-- <h1 class="content-heading">Event Timeline</h1> -->
           <div class="content-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Work together, try new things and learn while doing. That's what makes a better programmer.<br/>
+            The overnight Zenith 2.0 will go on as follows..
           </div>
         </div>
         <img src="./img/timeline_x.png" class="d-block mx-auto" width="90%" height="90%" alt="event timeline">
@@ -149,7 +150,7 @@
     <!-- section 6: prizes -->
     <section class="section section-6 prizes" id="prizes" data-section="6">
       <div class="col-md-12">
-        <img src="./img/trophy.png" width="25%" id="mr-piggy" class="img-fluid d-block mx-auto" alt="prizes">
+        <img src="./img/trophy.png" width="25%" id="trophy" class="img-fluid d-block mx-auto" alt="prizes">
       </div>
 
       <div class="text-content text-center pc-w-75 d-block mx-auto mob-w-100 p-3">
@@ -170,7 +171,7 @@
 
     <!-- section 7: sponsors -->
     <section class="section section-7 sponsors" id="sponsors" data-section="7">
-      <img src="./img/sponsors/piggy.png" width="25%" id="mr-piggy" class="img-fluid d-block mx-auto" alt="sponsors">
+      <img src="./img/sponsors/piggy.png" id="mr-piggy" class="img-fluid d-block mx-auto" alt="sponsors">
 
       <div class="text-content text-center pc-w-75 d-block mx-auto mob-w-100 p-3">
         <h1 class="content-heading">Sponsors</h1>
@@ -239,8 +240,8 @@
     </section>
 
     <!-- section 9: faqs -->
-    <section class="section section-9 faq p-3" id="faq" data-section="9">
-      <h1 class="text-center display-4 mb-5">FAQs</h1>
+    <section class="section section-9 faq p-3 pb-5" id="faq" data-section="9">
+      <h1 class="text-center display-4 p-4">FAQs</h1>
 
       <div class="row no-gutters">
           <div class="col-md-2"></div>
@@ -313,12 +314,12 @@
               <div class="card">
                 <div class="card-header" role="tab" id="headingOne">
                   <h5 class="mb-0">
-                    <a data-toggle="collapse" href="#faq-4" aria-expanded="true" aria-controls="faq-4">
+                    <a class="collapsed" data-toggle="collapse" href="#faq-5" aria-expanded="true" aria-controls="faq-5">
                       Can I start working on my hack before the event?
                     </a>
                   </h5>
                 </div>
-                <div id="faq-4" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#faq-list-2">
+                <div id="faq-5" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#faq-list-2">
                   <div class="card-body">
                     No, but you can familiarize yourself with all the tools and technologies you intend to use beforehand!
                   </div>
@@ -328,12 +329,12 @@
               <div class="card">
                 <div class="card-header" role="tab" id="headingTwo">
                   <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" href="#faq-5" aria-expanded="false" aria-controls="faq-5">
+                    <a class="collapsed" data-toggle="collapse" href="#faq-6" aria-expanded="false" aria-controls="faq-6">
                       Will my travelling expenses be reimbursed?
                     </a>
                   </h5>
                 </div>
-                <div id="faq-5" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#faq-list-2">
+                <div id="faq-6" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#faq-list-2">
                   <div class="card-body">
                     Sorry, but we will NOT be able to provide it.
                   </div>
@@ -343,12 +344,12 @@
               <div class="card">
                 <div class="card-header" role="tab" id="headingThree">
                   <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" href="#faq-6" aria-expanded="false" aria-controls="faq-6">
+                    <a class="collapsed" data-toggle="collapse" href="#faq-7" aria-expanded="false" aria-controls="faq-7">
                       Who will own the IP(Intellectual Property) Rights to the product that I have built?
                     </a>
                   </h5>
                 </div>
-                <div id="faq-6" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#faq-list-2">
+                <div id="faq-7" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#faq-list-2">
                   <div class="card-body">
                     The developer/developers of the web/mobile application will have all rights and own the IP of the product. However, we promote open source. :D
                   </div>

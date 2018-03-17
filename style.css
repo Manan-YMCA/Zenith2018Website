@@ -122,7 +122,9 @@ nav a{
 .sponsors{
   height: auto !important;
 }
-
+#mr-piggy{
+  width: 25%;
+}
 
 /* fun slide - section 8 styling */
 .fun{
@@ -226,6 +228,9 @@ nav a{
     text-align: center;
     width: 100% !important;
   }
+  .content-text{
+    font-size: 1.1rem;
+  }
   .mob-mw-100{
     max-width: 100%;
   }
@@ -242,6 +247,9 @@ nav a{
   }
   .scroll-down{
     left: 50%;
+  }
+  #mr-piggy, #trophy, #cal-img{
+    width: 50%;
   }
 }
 
