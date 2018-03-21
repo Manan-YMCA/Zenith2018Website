@@ -16,8 +16,10 @@ html, body, section{
 .t-25{top: 25%;}
 .t-30{top: 30%;}
 .t-40{top: 40%;}
+.t-45{top: 45%;}
 .t-50{top: 50%;}
 .t-60{top: 60%;}
+.t-70{top: 70%;}
 .t-75{top: 75%;}
 
 .l-50{left: 50%;}
@@ -106,6 +108,9 @@ ul.topBotomBordersIn li a:hover:before, ul.topBotomBordersIn li a:hover:after {
   font-family: "Open Sans",X-LocaleSpecific,sans-serif;
   font-weight: 700;
   font-size: 1.2rem;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
 }
 #registerButton:hover {
   background-color: green;
@@ -150,6 +155,11 @@ ul.topBotomBordersIn li a:hover:before, ul.topBotomBordersIn li a:hover:after {
 #mr-piggy{
   width: 25%;
 }
+.sponsor-logo{
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+}
 
 /* fun slide - section 8 styling */
 .fun{
@@ -172,15 +182,6 @@ ul.topBotomBordersIn li a:hover:before, ul.topBotomBordersIn li a:hover:after {
   text-decoration: none;
   color: #000;
 }
-/* .faqs .card-header:after {
-  content: "\f068";
-  float: right;
-}
-.faqs .card-header.collapsed:after {
-  content: "\f067";
-  float: right;
-} */
-
 
 /* contact slide - section 10 styling */
 .contact{
@@ -189,8 +190,11 @@ ul.topBotomBordersIn li a:hover:before, ul.topBotomBordersIn li a:hover:after {
   background-size: 30%;
 }
 .social-icon{
-  height: 150px;
-  width: 150px;
+  height: 140px;
+  width: 140px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
 }
 
 /* scroll icon styling */
@@ -202,6 +206,15 @@ ul.topBotomBordersIn li a:hover:before, ul.topBotomBordersIn li a:hover:after {
   -webkit-transform: translateX(-50%);
   bottom: 0;
   opacity: 0.4;
+}
+
+.hover-me:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
 }
 
 
