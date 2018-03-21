@@ -162,7 +162,7 @@ ul.topBotomBordersIn li a:hover:before, ul.topBotomBordersIn li a:hover:after {
 
 /* faqs slide - section 9 styling */
 #faq{
-  min-height: 100% !important;
+  height: auto !important;
 }
 .faqs a{
   color: #666;
@@ -267,14 +267,14 @@ ul.topBotomBordersIn li a:hover:before, ul.topBotomBordersIn li a:hover:after {
     width: 80px;
   }
   .scroll-down img{
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 3rem;
+    width: 3rem;
   }
   .scroll-down{
     left: 50%;
   }
   #mr-piggy, #trophy, #cal-img{
-    width: 50%;
+    width: 60%;
   }
 }
 
